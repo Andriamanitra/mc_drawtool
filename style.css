@@ -1,0 +1,77 @@
+/* Layout */
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 0.2em 1em 1em 2em;
+}
+
+canvas {
+    display: block;
+    margin: 1em auto;
+}
+
+#blockSelect {
+    width: 960px;
+    display: flexbox;
+    margin: 1em auto;
+}
+#currentBlock {
+    float: left;
+    margin-right: 1em;
+}
+#searchBlockForm {
+    display: inline-block;
+}
+#searchBlockForm label {
+    display: block;
+    font-size: 0.75em;
+}
+#searchBlockForm input {
+    width: 30em;
+}
+
+.pallette {
+    display: block;
+    min-width: 960px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.block {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin: 3px;
+}
+
+/* Colors & other styling*/
+body {
+    background-color: #35d48d;
+}
+
+header, footer {
+    color: white;
+    background-color: #312f2f;
+}
+
+canvas,
+img {
+    outline: 1px solid grey;
+    image-rendering: optimizeSpeed;
+    background-color: white;
+}
+
+.block {
+    cursor: pointer;
+}
+
+#currentBlock {
+    border: 4px solid black;
+}
+.pallette>img:hover {
+    outline: 2px solid red;
+}

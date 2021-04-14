@@ -1,0 +1,43 @@
+{
+    "default": "my_textures/grass_block_side.png",
+    "height": 16,
+    "width": 16,
+    "favorites": [
+        "my_textures/black_concrete.png",
+        "my_textures/blue_concrete.png",
+        "my_textures/brown_concrete.png",
+        "my_textures/cyan_concrete.png",
+        "my_textures/gray_concrete.png",
+        "my_textures/green_concrete.png",
+        "my_textures/light_blue_concrete.png",
+        "my_textures/light_gray_concrete.png",
+        "my_textures/lime_concrete.png",
+        "my_textures/magenta_concrete.png",
+        "my_textures/orange_concrete.png",
+        "my_textures/pink_concrete.png",
+        "my_textures/purple_concrete.png",
+        "my_textures/red_concrete.png",
+        "my_textures/white_concrete.png",
+        "my_textures/yellow_concrete.png"
+    ],
+    "blocks": [
+        "my_textures/cobblestone.png",
+        "my_textures/grass_block_side.png",
+        "my_textures/black_concrete.png",
+        "my_textures/blue_concrete.png",
+        "my_textures/brown_concrete.png",
+        "my_textures/cyan_concrete.png",
+        "my_textures/gray_concrete.png",
+        "my_textures/green_concrete.png",
+        "my_textures/light_blue_concrete.png",
+        "my_textures/light_gray_concrete.png",
+        "my_textures/lime_concrete.png",
+        "my_textures/magenta_concrete.png",
+        "my_textures/orange_concrete.png",
+        "my_textures/pink_concrete.png",
+        "my_textures/purple_concrete.png",
+        "my_textures/red_concrete.png",
+        "my_textures/white_concrete.png",
+        "my_textures/yellow_concrete.png"
+    ]
+}

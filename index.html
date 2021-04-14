@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Minecraft Drawing Tool</h2>
+    </header>
+    <canvas id="drawArea" width="960" height="640"></canvas>
+    <div id="blockSelect">
+        <img id="currentBlock" class="block" src="">
+        <form id="searchBlockForm"><label for="searchBlock">Search for block or type URL to external image</label>
+            <input type="text" list="blocks" name="search" id="searchBlock">
+            <datalist id="blocks"></datalist>
+        </form>
+    </div>
+    <div id="recents" class="pallette"></div>
+    <div id="pallette" class="pallette"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
