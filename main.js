@@ -6,7 +6,7 @@ var canvas = document.getElementById("drawArea")
 var ctx = canvas.getContext("2d");
 
 var url = new URL(window.location.href)
-var blocksJson = url.searchParams.get("blocks") || "/blocks.json"
+var blocksJson = url.searchParams.get("blocks") || "blocks.json"
 fetch(blocksJson)
     .then(resp => resp.json())
     .then(data => {
